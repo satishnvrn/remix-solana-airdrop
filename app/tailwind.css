@@ -23,3 +23,7 @@ html {
     align-items: center;
     text-align: center;
   }
+
+  .form-group input[type=text] {
+    @apply py-3 px-5 my-2 mx-0 box-border border-0 border-b-2 border-b-[#a0a0a0] text-base bg-transparent outline-none;
+  }
