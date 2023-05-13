@@ -12,3 +12,14 @@ html {
   body {
     margin: 0;
   }
+
+  .banner {
+    position: relative;
+    height: 50vh;
+    background-image: url("./assets/images/blockchain.jpg");  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
